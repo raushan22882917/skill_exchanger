@@ -42,6 +42,7 @@ export default function Home() {
                         <MainHeading />
                     </div>
                     <div className='flex flex-col justify-center mt-8'>
+                        <RegtdUsers />
                         <GetStartedBtn />
                     </div>
                 </div>
