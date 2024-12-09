@@ -28,7 +28,7 @@ app.use(cors({
     },
     credentials: true
 }));
-
+app.use(cors({ origin: "https://skill-exchanger-fronted.vercel.app" }));
 // Define your routes
 app.use('/user', userRouter)
 app.use('/home', homeRouter)
