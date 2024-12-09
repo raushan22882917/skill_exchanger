@@ -16,34 +16,38 @@ function Footer() {
           {/* Social Media Links */}
           <div className="flex space-x-4">
             <a
-              href="h#"
+              href="https://facebook.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white"
+              aria-label="Facebook"
             >
               <FaFacebookF size={20} />
             </a>
             <a
-              href="#"
+              href="https://twitter.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white"
+              aria-label="Twitter"
             >
               <FaTwitter size={20} />
             </a>
             <a
-              href="#"
+              href="https://instagram.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white"
+              aria-label="Instagram"
             >
               <FaInstagram size={20} />
             </a>
             <a
-              href="#"
+              href="https://linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white"
+              aria-label="LinkedIn"
             >
               <FaLinkedinIn size={20} />
             </a>
@@ -53,7 +57,9 @@ function Footer() {
         <hr className="my-4 border-gray-600" />
 
         {/* Footer Bottom */}
-        
+        <div className="text-center text-sm text-gray-400">
+          © {new Date().getFullYear()} Skill Exchange. All rights reserved.
+        </div>
       </div>
     </footer>
   );
