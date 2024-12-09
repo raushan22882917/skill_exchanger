@@ -34,5 +34,3 @@ export default function RegtdUsers() {
         </div>
     )
 }
-
-if not fetch just pass
